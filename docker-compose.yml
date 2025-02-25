@@ -18,8 +18,8 @@ services:
       - refrig_networks
   nginx:
     image: simidot/nginx:latest
-    build:
-      context: ./nginx
+#    build:
+#      context: ./nginx
     container_name: nginx
     ports:
       - "80:80"
