@@ -6,8 +6,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "groups")
-public class Groups extends BaseEntity {
-    @Column(name = "group_name")
-    private String groupName;
+@Table(name = "home")
+public class Home extends BaseEntity {
+    @Column(name = "home_name")
+    private String homeName;
 }

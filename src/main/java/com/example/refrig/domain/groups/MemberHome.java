@@ -7,8 +7,8 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "memberGroup")
-public class MemberGroups extends BaseEntity {
+@Table(name = "memberHome")
+public class MemberHome extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private MemberRole memberRole;

@@ -37,4 +37,6 @@ out/
 .vscode/
 
 ##yaml
-*.yml
+application.yml
+application-DEV.yml
+application-LOCAL.yml
