@@ -2,7 +2,7 @@ version: '3'
 services:
   refrig:
     build:
-      context: ./refrig-backend
+      context: .
 #    image: simidot/refrig:latest
     container_name: refrig
     environment:
