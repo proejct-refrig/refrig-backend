@@ -15,7 +15,7 @@ services:
       timeout: 10s
       retries: 5
     networks:
-      - refrig_network
+      - refrig_networks
   nginx:
     image: simidot/nginx:latest
     build:
