@@ -7,9 +7,9 @@ services:
     container_name: refrig
     environment:
       - SPRING_PROFILES_ACTIVE=DEV
-      - DB_URL
-      - DB_USERNAME
-      - DB_PASSWORD
+      - DB_URL="${DB_URL}"
+      - DB_USERNAME="${DB_USERNAME}"
+      - DB_PASSWORD="${DB_PASSWORD}"
     ports:
       - 8080:8080
     healthcheck:
